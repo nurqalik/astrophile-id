@@ -5,7 +5,7 @@ export default function AboutUs() {
         <h2 className="text-3xl font-bold text-center mb-8 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
           About Astrophile
         </h2>
-        <div className="max-w-3xl text-center flex flex-col gap-y-8 mx-4">
+        <div className="max-w-3xl text-center flex flex-col gap-y-8 mx-4 md:mx-auto">
           <p className="text-lg text-gray-300 leading-relaxed">
             Astrophile was started on 9 September, 2024, by Rey (the founder)
             and his team, Melin, Lita, Delphy, and Artha.
