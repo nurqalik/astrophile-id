@@ -1,3 +1,3 @@
 export const images = [
-    { src: '/gallery/astro.jpg', alt: 'Astro' },
+    { src: '/gallery/Astro.jpg', alt: 'Astro' },
   ]
