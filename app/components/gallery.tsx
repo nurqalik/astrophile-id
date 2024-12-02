@@ -5,7 +5,7 @@ export default function Gallery() {
   return (
     <section id="gallery" className="py-16 bg-gray-800">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Cosmic Memories</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Astro Memories</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {images.map((image, index) => (
             <a href={image.src} target="_blank" rel="noopener noreferrer" key={index} className="relative aspect-video overflow-hidden rounded-lg group">

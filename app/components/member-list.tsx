@@ -20,9 +20,9 @@ export default function MemberList() {
     <section id="members" className="py-16 bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-          Our Cosmic Members
+          Our Precious Members
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {members.map((member) => (
             <Dialog key={member.name}>
               <DialogTrigger asChild>
@@ -41,7 +41,7 @@ export default function MemberList() {
               <div 
               className="bg-gray-800 p-6 rounded-lg text-white shadow-lg text-center"
             >
-              <div className="relative w-40 aspect-square mx-auto mb-4">
+              <div className="relative w-80 aspect-square mx-auto mb-4">
                 <Image
                   src={"/member/" + member.avatar}
                   alt={member.name}

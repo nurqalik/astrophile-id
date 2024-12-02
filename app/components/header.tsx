@@ -9,7 +9,7 @@ export default function Header() {
           <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Astrophile</span>
         </Link>
         <nav className="hidden md:flex space-x-4">
-          {['About', 'Members', 'Events', 'Games', 'Gallery', 'Join'].map((item) => (
+          {['About', 'Members', 'Events', 'Gallery'].map((item) => (
             <Link key={item} href={`#${item.toLowerCase()}`} className="text-sm font-medium text-gray-300 hover:text-white hover:underline underline-offset-4 transition-colors">
               {item}
             </Link>

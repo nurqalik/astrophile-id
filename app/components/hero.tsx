@@ -14,7 +14,7 @@ export default function Hero() {
       />
       <div className="flex items-center justify-center gap-4 flex-col mx-auto text-center absolute top-0 left-0 z-20 h-full w-full">
         <Image
-          src="/logo1.png"
+          src="/logo1.jpg"
           className="rounded-full aspect-square w-40 md:w-60"
           alt="Astrophile Logo"
           width={400}
