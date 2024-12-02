@@ -15,7 +15,9 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-        <Button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white border-0">Join Us</Button>
+        <Link href="#join">
+          <Button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white border-0">Join Us</Button>
+        </Link>
       </div>
     </header>
   )
