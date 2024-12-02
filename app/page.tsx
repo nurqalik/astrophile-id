@@ -19,7 +19,7 @@ export default function Home() {
         <MemberList />
         <Events />
         <Gallery />
-        <JoinUs />
+        {/* <JoinUs /> */}
       </main>
       </TracingBeam>
       <Footer />

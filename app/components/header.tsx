@@ -15,7 +15,7 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-        <Link href="#join">
+        <Link href="#join" className='invisible'>
           <Button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white border-0">Join Us</Button>
         </Link>
       </div>
