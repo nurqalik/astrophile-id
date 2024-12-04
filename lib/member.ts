@@ -7,7 +7,7 @@ export const members = [
       avatar: "Rey.jpg",
     },
     {
-      name: "Melin",
+      name: "Valen",
       DOB: "31 October",
       DOM: "Batam",
       role: "Leader",
@@ -35,18 +35,18 @@ export const members = [
       avatar: "Velita.jpg",
     },
     {
+      name: "Angelia",
+      DOB: "22 Desember",
+      DOM: "Kalteng",
+      role: "Staff",
+      avatar: "Angel.jpg",
+    },
+    {
       name: "Shanie",
       DOB: "4 Februari",
       DOM: "Medan",
       role: "Member",
       avatar: "Shanie.jpg",
-    },
-    {
-      name: "Angel",
-      DOB: "22 Desember",
-      DOM: "Kalteng",
-      role: "Member",
-      avatar: "Angel.jpg",
     },
     {
       name: "Septi",
