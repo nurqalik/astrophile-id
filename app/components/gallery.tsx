@@ -9,7 +9,11 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { images, meets } from "@/lib/gallery";
 import Image from "next/image";
-import Autoplay from "embla-carousel-autoplay";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function Gallery() {
   return (
@@ -47,25 +51,19 @@ export default function Gallery() {
           Meet and greet.
         </h2>
         <div className="flex items-center justify-center w-full">
-          <Carousel
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-            plugins={[
-              Autoplay({
-                delay: 5000,
-              }),
-            ]}
-            className="w-full aspect-video md:mx-20"
+        <Swiper
+            pagination={{ clickable: true }}
+            modules={[Pagination, Autoplay]}
+            autoplay={{ delay: 4500 }}
+            className="w-full flex items-center justify-center"
           >
-            <CarouselContent>
-              {meets.map((image, index) => (
-                <CarouselItem key={index} className="relative aspect-video overflow-hidden rounded-lg group">
+            {meets.map((image, index) => (
+                <SwiperSlide key={index} className="relative aspect-square md:aspect-videonp overflow-hidden rounded-lg group">
                   <a
                     href={image.src}
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex w-full items-center justify-center"
                   >
                     <Image
                       src={image.src}
@@ -75,12 +73,9 @@ export default function Gallery() {
                       className="object-contain transition-transform group-hover:scale-110 duration-500"
                     />
                   </a>
-                </CarouselItem>
+                </SwiperSlide>
               ))}
-            </CarouselContent>
-            <CarouselPrevious className="bg-gray-800 hidden md:flex" />
-            <CarouselNext className="bg-gray-800 hidden md:flex" />
-          </Carousel>
+          </Swiper>
         </div>
       </div>
     </section>
