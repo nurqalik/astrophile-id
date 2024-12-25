@@ -133,13 +133,6 @@ export const members = [
       avatar: "Arul.jpg",
     },
     {
-      name: "Putra",
-      DOB: "4 September",
-      DOM: "Bali",
-      role: "Member",
-      avatar: "Putra.jpg",
-    },
-    {
       name: "Mbul",
       DOB: "25 Desember",
       DOM: "Tangerang",
@@ -173,5 +166,26 @@ export const members = [
       DOM: "Bekasi",
       role: "Member",
       avatar: "Nando.jpg",
+    },
+    {
+      name: "Aleta",
+      DOB: "26 Mei",
+      DOM: "Bekasi",
+      role: "Member",
+      avatar: "Aleta.jpg",
+    },
+    {
+      name: "Valen",
+      DOB: "14 Februari",
+      DOM: "Jakarta",
+      role: "Member",
+      avatar: "Valen.jpg",
+    },
+    {
+      name: "Rifqy",
+      DOB: "28 Desember",
+      DOM: "Jakarta",
+      role: "Member",
+      avatar: "Rifqy.jpg",
     },
   ];
