@@ -58,7 +58,7 @@ export default function Gallery() {
             className="w-full flex items-center justify-center"
           >
             {meets.map((image, index) => (
-                <SwiperSlide key={index} className="relative aspect-square md:aspect-videonp overflow-hidden rounded-lg group">
+                <SwiperSlide key={index} className="relative aspect-square md:aspect-video overflow-hidden rounded-lg group">
                   <a
                     href={image.src}
                     target="_blank"
