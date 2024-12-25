@@ -105,6 +105,13 @@ export const members = [
       avatar: "Sofia.jpg",
     },
     {
+      name: "Ghifari",
+      DOB: "28 Maret",
+      DOM: "Jakarta",
+      role: "Member",
+      avatar: "Ghifari.jpg",
+    },
+    {
       name: "Olif",
       DOB: "23 Februari",
       DOM: "Semarang",
@@ -117,13 +124,6 @@ export const members = [
       DOM: "Bekasi",
       role: "Member",
       avatar: "Roe.jpg",
-    },
-    {
-      name: "Ghifari",
-      DOB: "28 Maret",
-      DOM: "Jakarta",
-      role: "Member",
-      avatar: "Ghifari.jpg",
     },
     {
       name: "Arul",
