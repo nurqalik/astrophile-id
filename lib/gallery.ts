@@ -8,4 +8,5 @@ export const images = [
     { src: '/meet/1.jpg', alt: 'Astro' },
     { src: '/meet/2.jpg', alt: 'Astro' },
     { src: '/meet/3.jpg', alt: 'Astro' },
+    { src: '/meet/4.jpg', alt: 'Astro' },
   ]
