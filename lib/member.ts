@@ -188,4 +188,11 @@ export const members = [
       role: "Member",
       avatar: "Rifqy.jpg",
     },
+    {
+      name: "Hana",
+      DOB: "25 Mei",
+      DOM: "Bogor",
+      role: "Member",
+      avatar: "Hana.jpg",
+    },
   ];
